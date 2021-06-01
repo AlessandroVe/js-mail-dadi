@@ -9,7 +9,6 @@ for (var i = 0 ; i < regidit.length; i++){
 }
 if (flag){
     output.innerHTML=" OK";
-
 }else{
     output.innerHTML="NOPE";
 }
