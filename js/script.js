@@ -16,3 +16,13 @@ if (flag){
 
 
 
+var userNumber = Math.floor(Math.random() *6 ) +1;
+var computerNumber = Math.floor(Math.random() *6 ) +1;
+output.innerHTML+="<br> computer "+computerNumber+"<br> user "+userNumber;
+if(userNumber > computerNumber){
+    output.innerHTML+="<br>   Hai vinto!";
+} else if(userNumber < computerNumber) {
+    output.innerHTML+="<br>   Hai perso!";
+}else{
+    output.innerHTML+="<br>  Pari!";
+}
